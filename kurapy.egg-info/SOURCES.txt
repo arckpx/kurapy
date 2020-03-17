@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kurapy/__init__.py
+kurapy/helloworld.py
+kurapy.egg-info/PKG-INFO
+kurapy.egg-info/SOURCES.txt
+kurapy.egg-info/dependency_links.txt
+kurapy.egg-info/requires.txt
+kurapy.egg-info/top_level.txt

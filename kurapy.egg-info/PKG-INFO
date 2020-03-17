@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kurapy
+Version: 0.0.1
+Summary: Simulation of Kuramoto model in a 2D lattice
+Home-page: https://github.com/arckpx/kurapy
+Author: Kun Hee Park
+Author-email: arckp.x@gmail.com
+License: MIT
+Description: Python package for simulation of Kuramoto model in a 2D lacttice.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

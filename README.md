@@ -1,0 +1,1 @@
+Python package for simulation of Kuramoto model in a 2D lacttice.
