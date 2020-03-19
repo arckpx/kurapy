@@ -5,8 +5,8 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="kurapy",
-    version="0.0.1",
-    description="Simulation of Kuramoto model in a 2D lattice",
+    version="0.1.0",
+    description="Python package for simulation of Kuramoto model in a fully-filled square lacttice.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/arckpx/kurapy",
@@ -18,5 +18,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
     ],
     packages=["kurapy"],
-    install_requires=["numpy"],
+    install_requires=["numpy", "scipy", "matplotlib", "opencv-python"],
 )

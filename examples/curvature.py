@@ -1,0 +1,23 @@
+import numpy as np
+import kurapy as kp
+
+np.random.seed(0)
+L = 20  # lattice size
+N = L ** 2  # number of oscillators
+
+lattice = kp.Lattice(L)
+lattice.set_distances('cartesian')
+
+K = kp.coupling.cosine(lattice)
+model = kp.Model(np.zeros(N), K)
+
+t = np.arange(200)  # time
+phi0 = 2 * np.pi * np.random.rand(N)  # initial condition
+phis = model.evolve(t, phi0)
+
+phimat = kp.analyze.shape_matrix(phis)
+phimat = kp.visualize.lattice_roll(phimat, -4, 0)
+kp.visualize.lattice_anim(t, phimat)
+
+laplace = kp.analyze.curvature(phimat)
+kp.visualize.curvature_anim(t, laplace)
