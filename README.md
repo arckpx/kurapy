@@ -40,6 +40,10 @@ Refer to [examples](examples/) for more details:
 2. curvature.py
 3. gradient.py
 
+The following are some example outputs:
+
+![alt text](https://github.com/arckpx/kurapy/blob/master/examples/output.png "Example Output")
+
 ## Built With
 
 * [NumPy](http://www.numpy.org/)
